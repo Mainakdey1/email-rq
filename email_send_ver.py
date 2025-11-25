@@ -6,7 +6,7 @@ redis_conn = Redis()
 q = Queue(connection=redis_conn)
 
 job = q.enqueue(send_email_task, 
-                "reciever@gmail.com",
+                "enviropr1@gmail.com",
                 "hello from me",
                 "This is a hehehehe test.")
 
